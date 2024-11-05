@@ -1,0 +1,444 @@
+/* Google Font Lato and quicksand css link */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* Google Font Lato and quicksand css link */
+
+/* Root color and font family */
+:root {
+    --RaleWay-font: "Raleway", sans-serif;
+    --OpenSans-font: "Open Sans", sans-serif;
+    --Cardo-font: "Cardo", serif;
+    --btn-color: #e84545;
+    --logo-color: #66697e;
+}
+
+
+/* Root color and font family */
+/* basic css desing file */
+/* Target all browsers */
+input[type=number] {
+    -moz-appearance: textfield;
+    /* For Firefox */
+    -webkit-appearance: none;
+    /* For Chrome, Safari, Edge */
+    appearance: none;
+    /* For modern browsers */
+}
+
+/* Optional: Hide the up/down arrows in WebKit-based browsers (like Chrome) */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* clears the 'X' from Internet Explorer */
+input[type=search]::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+input[type=search]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+/* check box color change  */
+input[type="checkbox"]:checked {
+    accent-color: var(--logo-color);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+}
+
+body,
+header,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p,
+span,
+table,
+footer,
+nav,
+div,
+section {
+    padding: 0;
+    margin: 0;
+}
+
+/* basic css style desing ended */
+/* header section css part start */
+
+/* nav bar design css part start  */
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.navbar-toggler {
+    background-color: #fff !important;
+}
+
+
+/* nav bar design css part End  */
+
+
+
+.header_main {
+
+    width: 100%;
+    background: url(../image/Banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+
+    font-family: var(--RaleWay-font);
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    padding: 0px 30px;
+
+}
+
+.baner_main {
+    padding: 150px 0px;
+    text-align: center;
+}
+
+.b_title {
+    font-family: var(--OpenSans-font);
+    font-size: 65px;
+    line-height: 75px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.b_sub {
+    font-family: var(--OpenSans-font);
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 25px;
+    padding: 0px 200px;
+    margin-bottom: 80px;
+
+}
+
+.b_btn {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: var(--btn-color);
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.b_btn_c {
+    font-family: var(--RaleWay-font);
+    font-size: 13px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* header section css part End */
+
+/* services section css part start  */
+#services {
+    padding: 120px 0px;
+}
+
+.s_t_photo {
+    margin-bottom: 30px;
+}
+
+.s_title {
+    font-family: var(--RaleWay-font);
+    font-size: 14px;
+    line-height: auto;
+    font-weight: 700;
+    color: #2d3033;
+}
+
+.s_sub {
+    font-family: var(--RaleWay-font);
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #6c7279;
+    margin-top: 12px;
+    padding: 0px 28px;
+}
+
+.mar-70 {
+    margin-top: 70px;
+}
+
+/* services section css part End */
+/* gellery section css part start  */
+
+.g_i_main {
+    width: 100%;
+    border: 1px solid white;
+}
+
+.g_i_main img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.g_info {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(232, 83, 80, 0.8);
+    overflow: hidden;
+    transition: all linear 0.3s;
+    transform: scale(0);
+
+
+}
+
+.g_title,
+.g_sub {
+
+    font-family: var(--RaleWay-font);
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.g_i_main:hover .g_info {
+    transition: all linear 0.3s;
+    transform: scale(1);
+
+}
+
+/* gellery section css part End */
+
+/* team section css part start  */
+#team {
+    padding: 100px 0px;
+
+}
+
+.t_main .t_title {
+    font-family: var(--RaleWay-font);
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #2d3033;
+    margin-top: 20px;
+}
+
+.t_main .t_sub {
+    font-family: var(--RaleWay-font);
+    font-size: 13px;
+    line-height: auto;
+    font-weight: 500;
+    color: #e84545;
+    margin-top: 7px;
+    text-transform: uppercase;
+}
+
+.t_main .t_txt {
+    font-family: var(--RaleWay-font);
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #6c7279;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.t_icon ul li {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t_icon ul li a i {
+    color: #6c7279;
+}
+
+/* team section css part End */
+/* test section css part start  */
+.test_content_main {
+
+    margin: 0 !important;
+    padding: 0px 100px;
+    background-color: #53354a;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.t_t_title {
+    font-family: var(--Cardo-font);
+    font-size: 36px;
+    font-style: italic;
+    line-height: 42px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.t_t_sub {
+    font-family: var(--RaleWay-font);
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+
+}
+
+.t_b_c {
+    padding: 100px 0px;
+
+}
+
+.t_b_c_title {
+    font-family: var(--RaleWay-font);
+    font-size: 28px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #2d3033;
+}
+
+.t_b_c_sub {
+    font-family: var(--RaleWay-font);
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #2d3033;
+    margin-top: 10px;
+}
+
+.tbc_btn {
+
+    width: 180px;
+    height: 40px;
+    background-color: var(--btn-color);
+    margin: 40px auto 0px;
+
+}
+
+.tbc_btn a {
+    font-family: var(--RaleWay-font);
+    font-size: 13px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* test section css part start  */
+/* footer section css part start  */
+    footer{
+        width: 100%;
+        padding: 70px 0px 100px 0px;
+        background-color: #3a3e64;
+    }
+
+    .f_c_title{
+        font-family: var(--RaleWay-font);
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .f_c_sub {
+        font-family: var(--RaleWay-font);
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 7px;
+    }
+
+    .f_icon ul li{
+        margin-top: 15px;
+        width: 35px;
+        height: 35px;
+        border: 2px solid white;
+        margin: 10px 7px;
+
+    }
+
+    .f_icon ul li a i{
+        color: #fff;
+    }
+
+/* footer section css part End */
+
+/* copy section css part start  */
+
+.copy {
+    background-color: #9E9BBF;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.copy p,
+.copy p a {
+    font-size: var(--primary-font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000;
+}
+
+.copy p a {
+    color: rgb(3, 32, 32);
+    margin-left: 5px;
+}
+
+/* copy section css part End */

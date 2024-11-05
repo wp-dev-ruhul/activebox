@@ -1,0 +1,134 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* header section css part start */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-family: var(--RaleWay-font);
+        font-size: 15px;
+        font-weight: 700;
+        color: #fff;
+        padding: 7px 00px;
+        text-align: center;
+    }
+
+    .baner_main {
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+    .b_title {
+        font-family: var(--OpenSans-font);
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 700;
+        color: #fff;
+
+    }
+
+    .b_sub {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 0px 00px;
+        margin-bottom: 30px;
+    }
+
+    /* header section css part End */
+    /* services section css part start  */
+    #services {
+        padding: 50px 0px;
+    }
+
+    .s_t_photo {
+        margin-bottom: 20px;
+    }
+
+
+    .s_sub {
+        font-family: var(--RaleWay-font);
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+        color: #6c7279;
+        margin-top: 12px;
+        padding: 0px 0px;
+    }
+
+    .mar-70 {
+        margin-top: 00px;
+    }
+
+    .m_25 {
+        margin-top: 25px;
+    }
+
+    /* services section css part End */
+    /* team section css part start  */
+    #team {
+        padding: 50px 0px;
+
+    }
+
+    #team .t_sub {
+        font-size: 12px;
+
+    }
+
+    #team .t_txt {
+        font-size: 11px;
+
+    }
+
+
+    /* team section css part End */
+    /* test section css part start  */
+    .test_content_main {
+
+        margin: 0 !important;
+        padding: 20px 5px;
+    }
+
+    .t_t_title {
+        font-family: var(--Cardo-font);
+        font-size: 26px;
+        font-style: italic;
+        line-height: 32px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+
+
+    .t_b_c {
+        padding: 30px 0px;
+
+    }
+
+    .t_b_c_title {
+
+        font-size: 22px;
+        line-height: 26px;
+
+    }
+
+    .t_b_c_sub {
+        font-size: 13px;
+
+
+
+    }
+
+    .tbc_btn {
+
+        margin: 30px auto 0px;
+
+    }
+
+    /* test section css part start  */
+    /* footer section css part start  */
+    footer {
+        width: 100%;
+        padding: 30px 0px 60px 0px;
+        background-color: #3a3e64;
+    }
+
+    /* footer section css part End */
+}
